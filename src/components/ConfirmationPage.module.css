@@ -1,0 +1,29 @@
+.confirmationPage {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    text-align: center;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: auto;
+  }
+  
+  .titleConfirmation {
+    font-size: 1.7rem;
+    color: goldenrod;
+  }
+  
+  .confirmationText {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .confirmationDetails {
+    font-weight: bold;
+    color: #333;
+  }
+  

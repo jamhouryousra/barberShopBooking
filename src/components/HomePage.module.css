@@ -1,0 +1,52 @@
+.homePage {
+    text-align: center;
+    /* padding: 20px; */
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: auto;
+  }
+  .styleWelcome{
+    display: grid;
+    grid-template-rows: 40% 25% 35%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  .welcomeLine {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .styleMiddle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .bookingButton {
+    font-size: 1rem;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bookingButton:hover {
+    background-color: grey;
+    color: whitesmoke;
+  }
+
+
+  

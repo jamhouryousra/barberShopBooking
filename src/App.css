@@ -1,0 +1,35 @@
+/* WEB */
+/* Large Devices (993px-1200px) */
+@media screen and (min-width: 993px){
+.App {
+  text-align: center;
+  background-color: #61dafb;
+  width: 100%;
+  height: 100%;
+  /* ***** */
+  background-size: cover;
+  color: rgb(5, 1, 1);
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  animation: changeBackgroundImage 13s infinite;
+  align-items: center;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('components/img/IMG5.jpg');
+}
+}
+/* TABLET */
+/* Medium Devices (769px-992px) */    
+@media screen and ( min-width: 769px ) and (max-width: 992px){
+}
+/* MOBILE */
+@media screen and (max-width: 768px){}
+/* mobile height
+On smaller screens, where height is less than 420px */
+@media (max-height: 420px) and (max-width: 768px){}
+/* mobile height  
+On wider screens, where height is less than 420px but the width is at least 769px */
+@media (max-height: 420px) and (min-width:  769px){}
